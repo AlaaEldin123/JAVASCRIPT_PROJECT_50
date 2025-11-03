@@ -1,0 +1,26 @@
+.hero-section {
+    background: linear-gradient(135deg, #183169, #22BABD);
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-header {
+    background: linear-gradient(135deg, #183169, #22BABD);
+    padding: 100px 0 40px;
+
+}
+
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.service-card {
+    animation: fadeIn 0.5s ease-in;
+}
